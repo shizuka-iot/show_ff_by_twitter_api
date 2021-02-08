@@ -25,7 +25,8 @@ twitterAPIを使って取得したフォロー数・フォロワー数や最新�
 8. コンパイルしたshoff.cの実行ファイルを実行
 
 ※自動起動したい場合
-9. crontab -eで@reboot showff @reboot updateff.sh等cronを使うなりやデーモンに登録するなりしてください。
+
+crontab -eで@reboot showff @reboot updateff.sh等cronを使うなりやデーモンに登録するなりしてください。
 
 
 ## 用意するもの
