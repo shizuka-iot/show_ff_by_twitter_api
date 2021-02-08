@@ -3,7 +3,7 @@
 ## 概要
 twitterAPIを使って取得したフォロー数・フォロワー数や最新のツイートについたいいね数やリツイート数を7セグLEDに表示させます。
 
-事前に各自TwitterAPIの__コンシューマーキー__・__コンシューマーシークレット__・__アクセストークン__・__アクセストークンシークレット__を発行しておく。
+事前に各自TwitterAPIの __コンシューマーキー__ ・ __コンシューマーシークレット__ ・ __アクセストークン__ ・ __アクセストークンシークレット__ を発行しておく。
 
 上記のキーを用いてTwitterOAuthでPHPからtwitterにログインし、情報を取得。
 
@@ -18,10 +18,11 @@ twitterAPIを使って取得したフォロー数・フォロワー数や最新�
 1. PHPをインストール
 2. apache2をインストール
 3. gitclone
-4. apache2のドキュメントルート以下にcloneしたファイルを移動
-5. showff.cをコンパイル
-6. updateff.shを実行
-7. コンパイルしたshoff.cの実行ファイルを実行
+4. common.phpに各キーを入力
+5. apache2のドキュメントルート以下にcloneしたファイルを移動
+6. showff.cをコンパイル
+7. updateff.shを実行
+8. コンパイルしたshoff.cの実行ファイルを実行
 
 
 ## 用意するもの
@@ -64,9 +65,10 @@ twitterAPIを使って取得したフォロー数・フォロワー数や最新�
 * twitterAPI
 * twitteroauth
 
-## インストール
+## インストール&ダウンロード
 * sudo apt install php
 * sudo apt install apache2
+* gitclone https://github.com/shizuka-iot/show_ff_by_twitter_api.git
 
 ## 回路図に沿って配線してください
 ![diagram](diagram.png)
