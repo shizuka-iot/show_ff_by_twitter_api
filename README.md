@@ -62,6 +62,7 @@ twitterAPIを使って取得したフォロー数・フォロワー数や最新�
 ## 使用するソフト等
 * php
 * apache2
+* wiringPi
 * twitterAPI
 * twitteroauth
 
@@ -69,6 +70,7 @@ twitterAPIを使って取得したフォロー数・フォロワー数や最新�
 * sudo apt install php
 * sudo apt install apache2
 * gitclone https://github.com/shizuka-iot/show_ff_by_twitter_api.git
+* gcc -o showff showff.c -lwiringPi
 
 ## 回路図に沿って配線してください
 ![diagram](diagram.png)
