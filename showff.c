@@ -260,12 +260,16 @@ int main (void)
 				fgets(lines[i], sizeof(lines[i]), fp) != NULL; 
 				i++)
 		{
+			// 音声を鳴らしたい場合アンコメント
+			// 適当に音声ファイルを用意してください
+			/*
 			char *command = "omxplayer -o local /home/pi/Music/crrect_answer3.mp3 < /home/pi/Music/cmd | echo . > /home/pi/Music/cmd &";
 			if ( atoi(lines[i]) > old[i] )
 			{
 				system(command);
 			}
 			old[i] = atoi(lines[i]);
+			*/
 		}
 
 		// atoi()は数字を数値に変換 #include <stdlib.h>
