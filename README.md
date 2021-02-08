@@ -1,4 +1,4 @@
-# Raspberry Piで作るTwitterのフォロー・フォロワーを表示するIoTデバイスを作ろう！！
+# Raspberry Piで作るTwitterのフォロー・フォロワーを表示するIoTデバイス
 
 ## 概要
 twitterAPIを使って取得したフォロー数・フォロワー数や最新のツイートについたいいね数やリツイート数を7セグLEDに表示させます。
