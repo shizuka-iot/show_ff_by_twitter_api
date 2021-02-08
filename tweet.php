@@ -15,6 +15,7 @@ $twitter = new TwitterOAuth(
 
 # 認証ユーザーの情報を取得(stdClassが返ってくる)
 $content = $twitter->get("account/verify_credentials");
+var_dump($content);
 
 if (isset($content->errors))
 {
